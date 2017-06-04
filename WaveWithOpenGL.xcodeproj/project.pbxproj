@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3FF90C51EE1A06200EAD1CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FF90C41EE1A06200EAD1CB /* main.m */; };
+		D3FF90C81EE1A06200EAD1CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FF90C71EE1A06200EAD1CB /* AppDelegate.m */; };
+		D3FF90CB1EE1A06200EAD1CB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FF90CA1EE1A06200EAD1CB /* ViewController.m */; };
+		D3FF90CE1EE1A06200EAD1CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3FF90CC1EE1A06200EAD1CB /* Main.storyboard */; };
+		D3FF90D01EE1A06200EAD1CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3FF90CF1EE1A06200EAD1CB /* Assets.xcassets */; };
+		D3FF90D31EE1A06200EAD1CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3FF90D11EE1A06200EAD1CB /* LaunchScreen.storyboard */; };
+		D3FF90DC1EE1A09300EAD1CB /* GLWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FF90DB1EE1A09300EAD1CB /* GLWaveView.m */; };
+		D3FF90DF1EE1A56100EAD1CB /* GLContext.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FF90DE1EE1A56100EAD1CB /* GLContext.m */; };
+		D3FF90E21EE1A5C800EAD1CB /* fragment.glsl in Resources */ = {isa = PBXBuildFile; fileRef = D3FF90E01EE1A5C800EAD1CB /* fragment.glsl */; };
+		D3FF90E31EE1A5C800EAD1CB /* vertex.glsl in Resources */ = {isa = PBXBuildFile; fileRef = D3FF90E11EE1A5C800EAD1CB /* vertex.glsl */; };
+		D3FF90E51EE1B4C300EAD1CB /* mask.png in Resources */ = {isa = PBXBuildFile; fileRef = D3FF90E41EE1B4C300EAD1CB /* mask.png */; };
+		D3FF90E81EE2F80B00EAD1CB /* CAWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FF90E71EE2F80A00EAD1CB /* CAWaveView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D3FF90C01EE1A06200EAD1CB /* WaveWithOpenGL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaveWithOpenGL.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3FF90C41EE1A06200EAD1CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D3FF90C61EE1A06200EAD1CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D3FF90C71EE1A06200EAD1CB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D3FF90C91EE1A06200EAD1CB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D3FF90CA1EE1A06200EAD1CB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D3FF90CD1EE1A06200EAD1CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3FF90CF1EE1A06200EAD1CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3FF90D21EE1A06200EAD1CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D3FF90D41EE1A06200EAD1CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3FF90DA1EE1A09300EAD1CB /* GLWaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLWaveView.h; sourceTree = "<group>"; };
+		D3FF90DB1EE1A09300EAD1CB /* GLWaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLWaveView.m; sourceTree = "<group>"; };
+		D3FF90DD1EE1A56100EAD1CB /* GLContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLContext.h; sourceTree = "<group>"; };
+		D3FF90DE1EE1A56100EAD1CB /* GLContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLContext.m; sourceTree = "<group>"; };
+		D3FF90E01EE1A5C800EAD1CB /* fragment.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fragment.glsl; sourceTree = "<group>"; };
+		D3FF90E11EE1A5C800EAD1CB /* vertex.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = vertex.glsl; sourceTree = "<group>"; };
+		D3FF90E41EE1B4C300EAD1CB /* mask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mask.png; sourceTree = "<group>"; };
+		D3FF90E61EE2F80A00EAD1CB /* CAWaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAWaveView.h; sourceTree = "<group>"; };
+		D3FF90E71EE2F80A00EAD1CB /* CAWaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAWaveView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3FF90BD1EE1A06200EAD1CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3FF90B71EE1A06200EAD1CB = {
+			isa = PBXGroup;
+			children = (
+				D3FF90C21EE1A06200EAD1CB /* WaveWithOpenGL */,
+				D3FF90C11EE1A06200EAD1CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3FF90C11EE1A06200EAD1CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3FF90C01EE1A06200EAD1CB /* WaveWithOpenGL.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3FF90C21EE1A06200EAD1CB /* WaveWithOpenGL */ = {
+			isa = PBXGroup;
+			children = (
+				D3FF90E41EE1B4C300EAD1CB /* mask.png */,
+				D3FF90E01EE1A5C800EAD1CB /* fragment.glsl */,
+				D3FF90E11EE1A5C800EAD1CB /* vertex.glsl */,
+				D3FF90DD1EE1A56100EAD1CB /* GLContext.h */,
+				D3FF90DE1EE1A56100EAD1CB /* GLContext.m */,
+				D3FF90C61EE1A06200EAD1CB /* AppDelegate.h */,
+				D3FF90C71EE1A06200EAD1CB /* AppDelegate.m */,
+				D3FF90C91EE1A06200EAD1CB /* ViewController.h */,
+				D3FF90CA1EE1A06200EAD1CB /* ViewController.m */,
+				D3FF90CC1EE1A06200EAD1CB /* Main.storyboard */,
+				D3FF90CF1EE1A06200EAD1CB /* Assets.xcassets */,
+				D3FF90D11EE1A06200EAD1CB /* LaunchScreen.storyboard */,
+				D3FF90D41EE1A06200EAD1CB /* Info.plist */,
+				D3FF90C31EE1A06200EAD1CB /* Supporting Files */,
+				D3FF90DA1EE1A09300EAD1CB /* GLWaveView.h */,
+				D3FF90DB1EE1A09300EAD1CB /* GLWaveView.m */,
+				D3FF90E61EE2F80A00EAD1CB /* CAWaveView.h */,
+				D3FF90E71EE2F80A00EAD1CB /* CAWaveView.m */,
+			);
+			path = WaveWithOpenGL;
+			sourceTree = "<group>";
+		};
+		D3FF90C31EE1A06200EAD1CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3FF90C41EE1A06200EAD1CB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3FF90BF1EE1A06200EAD1CB /* WaveWithOpenGL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3FF90D71EE1A06200EAD1CB /* Build configuration list for PBXNativeTarget "WaveWithOpenGL" */;
+			buildPhases = (
+				D3FF90BC1EE1A06200EAD1CB /* Sources */,
+				D3FF90BD1EE1A06200EAD1CB /* Frameworks */,
+				D3FF90BE1EE1A06200EAD1CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WaveWithOpenGL;
+			productName = WaveWithOpenGL;
+			productReference = D3FF90C01EE1A06200EAD1CB /* WaveWithOpenGL.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3FF90B81EE1A06200EAD1CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "wang yang";
+				TargetAttributes = {
+					D3FF90BF1EE1A06200EAD1CB = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = P48344HVQL;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D3FF90BB1EE1A06200EAD1CB /* Build configuration list for PBXProject "WaveWithOpenGL" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3FF90B71EE1A06200EAD1CB;
+			productRefGroup = D3FF90C11EE1A06200EAD1CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3FF90BF1EE1A06200EAD1CB /* WaveWithOpenGL */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3FF90BE1EE1A06200EAD1CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3FF90D31EE1A06200EAD1CB /* LaunchScreen.storyboard in Resources */,
+				D3FF90E21EE1A5C800EAD1CB /* fragment.glsl in Resources */,
+				D3FF90D01EE1A06200EAD1CB /* Assets.xcassets in Resources */,
+				D3FF90CE1EE1A06200EAD1CB /* Main.storyboard in Resources */,
+				D3FF90E31EE1A5C800EAD1CB /* vertex.glsl in Resources */,
+				D3FF90E51EE1B4C300EAD1CB /* mask.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3FF90BC1EE1A06200EAD1CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3FF90CB1EE1A06200EAD1CB /* ViewController.m in Sources */,
+				D3FF90C81EE1A06200EAD1CB /* AppDelegate.m in Sources */,
+				D3FF90DF1EE1A56100EAD1CB /* GLContext.m in Sources */,
+				D3FF90C51EE1A06200EAD1CB /* main.m in Sources */,
+				D3FF90DC1EE1A09300EAD1CB /* GLWaveView.m in Sources */,
+				D3FF90E81EE2F80B00EAD1CB /* CAWaveView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D3FF90CC1EE1A06200EAD1CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3FF90CD1EE1A06200EAD1CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D3FF90D11EE1A06200EAD1CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3FF90D21EE1A06200EAD1CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3FF90D51EE1A06200EAD1CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D3FF90D61EE1A06200EAD1CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3FF90D81EE1A06200EAD1CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P48344HVQL;
+				INFOPLIST_FILE = WaveWithOpenGL/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.ocean.WaveWithOpenGL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D3FF90D91EE1A06200EAD1CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P48344HVQL;
+				INFOPLIST_FILE = WaveWithOpenGL/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.ocean.WaveWithOpenGL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3FF90BB1EE1A06200EAD1CB /* Build configuration list for PBXProject "WaveWithOpenGL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3FF90D51EE1A06200EAD1CB /* Debug */,
+				D3FF90D61EE1A06200EAD1CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3FF90D71EE1A06200EAD1CB /* Build configuration list for PBXNativeTarget "WaveWithOpenGL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3FF90D81EE1A06200EAD1CB /* Debug */,
+				D3FF90D91EE1A06200EAD1CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3FF90B81EE1A06200EAD1CB /* Project object */;
+}
